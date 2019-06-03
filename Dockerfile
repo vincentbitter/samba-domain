@@ -1,4 +1,4 @@
-FROM ubuntu:xenial
+FROM arm64v8/ubuntu
 MAINTAINER Fmstrat <fmstrat@NOSPAM.NO>
 
 ENV DEBIAN_FRONTEND noninteractive
