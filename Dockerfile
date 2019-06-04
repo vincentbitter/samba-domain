@@ -1,4 +1,4 @@
-FROM arm32v7/debian:stretch-slim
+FROM arm32v7/ubuntu:xenial
 LABEL maintainer="Vincent Bitter"
 
 COPY qemu-arm-static /usr/bin
