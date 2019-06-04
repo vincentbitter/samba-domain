@@ -1,5 +1,7 @@
 FROM arm64v8/ubuntu
-MAINTAINER Fmstrat <fmstrat@NOSPAM.NO>
+LABEL maintainer="Vincent Bitter"
+
+COPY qemu-arm-static /usr/bin
 
 ENV DEBIAN_FRONTEND noninteractive
 
